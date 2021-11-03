@@ -6,9 +6,6 @@ jobs:
         auth:
           username: msche123
           password: $DOCKERHUB_PASSWORD
-    executor:
-      name: node/default
-      tag: '10.4'
     steps:
       - checkout
       - run: echo "how is it going?"
