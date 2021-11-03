@@ -8,5 +8,5 @@ jobs:
           password: $DOCKERHUB_PASSWORD
     steps:
       - checkout
-      - run: echo "how is it going?"
-      # - run: ./gradlew srcJar
+      # - run: echo "how is it going?"
+      - run: ./gradlew srcJar
